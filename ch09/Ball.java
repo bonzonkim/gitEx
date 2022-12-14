@@ -1,0 +1,16 @@
+package ch09;
+
+public class Ball extends Circle{
+    private String color;
+    public Ball(String color){
+        this.color = color;
+    }
+    public Ball(){}
+    public void findColor(){
+        System.out.println(color + "공");
+    }
+    public void findVolume(){
+        System.out.println("부피구하기");
+    }
+
+}
